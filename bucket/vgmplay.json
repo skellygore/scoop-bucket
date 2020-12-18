@@ -5,7 +5,6 @@
     "license": "GPL-2.0-only",
     "url": "https://github.com/vgmrips/vgmplay/releases/download/0.40.9/VGMPlay_040-9.7z",
     "hash": "2edbd47b40257d6276ec92396233c9debc8bfbd492e8c07e5a23063b37a16417",
-    "extract_dir": "vgmplay",
     "bin": "VGMPlay.exe",
     "shortcuts": [
         [
