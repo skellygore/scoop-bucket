@@ -1,6 +1,6 @@
 # skellygore's scoop bucket
 
-Focusing on video game music ripping software I find useful.
+Focusing on video game music ripping software I find useful, mostly taken from [this guide](https://highquality.rip/ripguide/part-3-getting-editable-music).
 
 ## Install
 First [get scoop](https://scoop.sh/). Then add the bucket with:
