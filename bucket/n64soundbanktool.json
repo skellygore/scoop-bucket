@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://github.com/jombo23/N64-Tools",
-        "regex": "\/commit\/[a-zA-Z0-9]{40}"
+        "regex": "\/commit\/([a-zA-Z0-9]{40})"
     },
     "autoupdate": {
         "url": "https://github.com/jombo23/N64-Tools/archive/master.zip",
