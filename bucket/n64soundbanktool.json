@@ -1,16 +1,24 @@
 {
-    "version": "1.0.0",
+    "version": "217d510fb8d492ef08ea3d3d0f77e61578f70007",
     "description": "Video game music translator.",
     "homepage": "https://github.com/jombo23/N64-Tools",
     "license": "Unlicense",
     "url": "https://github.com/jombo23/N64-Tools/archive/217d510fb8d492ef08ea3d3d0f77e61578f70007.zip",
     "hash": "4d1301b57b51d28c23955d2bcd1fddf626d9ab9e0d950074a7e4062fe0d06f1e",
-    "extract_dir": "N64-Tools-217d510fb8d492ef08ea3d3d0f77e61578f70007\\N64 Soundbank Tool\\Release",
+    "extract_dir": "N64-Tools-$version\\N64 Soundbank Tool\\Release",
     "bin": "N64SoundbankTool.exe",
     "shortcuts": [
         [
             "N64SoundbankTool.exe",
             "N64 Soundbank Tool"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://github.com/jombo23/N64-Tools",
+        "regex": "\/commit\/[a-zA-Z0-9]{40}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jombo23/N64-Tools/archive/217d510fb8d492ef08ea3d3d0f77e61578f70007.zip",
+        "hash": "$url.sha256"
+    }
 }
