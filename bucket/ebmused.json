@@ -1,0 +1,21 @@
+{
+    "version": "2.3.0",
+    "description": "EBMusEd is a ROM hacking tool for editing and playing back EarthBound's N-SPC sequence data.",
+    "homepage": "https://github.com/PKHackers/ebmused",
+    "license": "MIT",
+    "url": "https://github.com/PKHackers/ebmused/releases/download/v2.3.0/ebmused2.3.exe",
+    "hash": "d4163ab38fa07970e9f2569a192d2ccf3cb307d5216f348ff1fc0234bec17084",
+    "pre_install": "$majorVersion = $version.Split('.') | Select-Object -first 1; $minorVersion = $version.Split('.') | Select-Object -skip 1 -first 1; rename-item -path \"$dir\\ebmused$majorVersion.$minorVersion.exe\" -newname \"$dir\\ebmused.exe\";",
+    "bin": "ebmused.exe",
+    "shortcuts": [
+        [
+            "ebmused.exe",
+            "EBMusEd"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/PKHackers/ebmused/releases/download/v$version/ebmused$majorVersion.$minorVersion.exe",
+        "hash": "$url.sha256"
+    }
+}
