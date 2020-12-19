@@ -5,7 +5,7 @@
     "license": "Unknown",
     "url": "http://childs.squares.net/program/bmx2wav/archives/bmx2wav-2.0.0.zip",
     "hash": "7c68590db655f287bff1a021c320900bc49ce97dfb94bbfcde1a6baf4cd63bec",
-    "extract_dir": "bmx2wave",
+    "extract_dir": "bmx2wav",
     "bin": [
         "bmx2wav.exe",
         "bmx2wav_searcher.exe"
