@@ -14,7 +14,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/vgmrips/vgmplay/releases/download/$versionVGMPlay_$version.7z",
+        "url": "https://github.com/vgmrips/vgmplay/releases/download/$version/VGMPlay_$majorVersion$minorVersion-$patchVersion.7z",
         "hash": "$url.sha256"
     }
 }

@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "http://hertzdevil.info/programs/",
-        "regex": "\"0CCft_v(.+?)).7z\""
+        "regex": "\"0CCft_v(.+?).7z\""
     },
     "autoupdate": {
         "url": "http://hertzdevil.info/programs/0CCft_v$version.7z",
