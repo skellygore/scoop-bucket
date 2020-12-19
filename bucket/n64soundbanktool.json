@@ -5,11 +5,11 @@
     "license": "Unlicense",
     "url": "https://github.com/jombo23/N64-Tools/archive/217d510fb8d492ef08ea3d3d0f77e61578f70007.zip",
     "hash": "4d1301b57b51d28c23955d2bcd1fddf626d9ab9e0d950074a7e4062fe0d06f1e",
-    "extract_dir": "N64 Soundbank Tool/Release",
-    "bin": "N64SoundbankTool.exe",
+    "extract_dir": "N64 Soundbank Tool",
+    "bin": "Release\\N64SoundbankTool.exe",
     "shortcuts": [
         [
-            "N64SoundbankTool.exe",
+            "Release\\N64SoundbankTool.exe",
             "N64 Soundbank Tool"
         ]
     ]
