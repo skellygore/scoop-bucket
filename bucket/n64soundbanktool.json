@@ -1,6 +1,6 @@
 {
     "version": "217d510fb8d492ef08ea3d3d0f77e61578f70007",
-    "description": "Video game music translator.",
+    "description": "Nintendo 64 midi and soundbank extractor.",
     "homepage": "https://github.com/jombo23/N64-Tools",
     "license": "Unlicense",
     "url": "https://github.com/jombo23/N64-Tools/archive/master.zip",
