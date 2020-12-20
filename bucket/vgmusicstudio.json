@@ -15,10 +15,10 @@
     ],
     "checkver": {
         "url": "https://github.com/Kermalis/VGMusicStudio/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">(.+?)</span>"
+        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">v(.+?)</span>"
     },
     "autoupdate": {
-        "url": "https://github.com/Kermalis/VGMusicStudio/releases/download/v0.2.1/VG.Music.Studio.-.Preview.v$version.zip",
+        "url": "https://github.com/Kermalis/VGMusicStudio/releases/download/v$version/VG.Music.Studio.-.Preview.v$version.zip",
         "hash": "$url.sha256"
     }
 }
