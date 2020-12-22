@@ -11,10 +11,6 @@
     ],
     "shortcuts": [
         [
-            "multidumper.exe",
-            "Multidumper"
-        ],
-        [
             "MultidumperGUI.exe",
             "Multidumper GUI"
         ]
