@@ -5,7 +5,7 @@
     "license": "Unlicense",
     "url": "https://github.com/jombo23/N64-Tools/archive/cc576a353b625e5812a9a794b4db76b07a90f4eb.zip",
     "hash": "5594c06b4a0195a1d08df91dcadd31b04f65fbb641fb280b186678c686546821",
-    "extract_dir": "N64-Tools-$version\\N64 Soundbank Tool\\Release",
+    "extract_dir": "N64-Tools-cc576a353b625e5812a9a794b4db76b07a90f4eb\\N64 Soundbank Tool\\Release",
     "bin": "N64SoundbankTool.exe",
     "shortcuts": [
         [
@@ -19,6 +19,7 @@
     },
     "autoupdate": {
         "url": "https://github.com/jombo23/N64-Tools/archive/$version.zip",
-        "hash": "$url.sha256"
+        "hash": "$url.sha256",
+        "extract_dir": "N64-Tools-$version\\N64 Soundbank Tool\\Release"
     }
 }
