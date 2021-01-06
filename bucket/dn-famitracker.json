@@ -1,0 +1,38 @@
+{
+    "version": "0.2.1.0",
+    "description": "Dn-Famitracker is a fork of 0CC-FamiTracker that incorporates numerous fixes and features.",
+    "homepage": "https://github.com/Gumball2415/Dn-FamiTracker",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn0.2.1.0/Dn-FamiTracker_v021.7z",
+    "hash": "eb1cbf5639856fd11362c260edb608146dc52a428db6d6a2997bb555a4073adf",
+    "architecture": {
+        "32bit": {
+            "extract_dir": "Dn-FamiTracker v0.2.1\\x86\\Release"
+        },
+        "64bit": {
+            "extract_dir": "Dn-FamiTracker v0.2.1\\x64\\Release"
+        }
+    },
+    "bin": "Dn_FamiTracker.exe",
+    "shortcuts": [
+        [
+            "Dn_FamiTracker.exe",
+            "Dn-FamiTracker"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases",
+        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">Dn(.+?)</span>"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn$version/Dn-FamiTracker_v$majorVersion$minorVersion$patchVersion.7z",
+        "architecture": {
+            "32bit": {
+                "extract_dir": "Dn-FamiTracker v$majorVersion.$minorVersion.$patchVersion\\x86\\Release"
+            },
+            "64bit": {
+                "extract_dir": "Dn-FamiTracker v$majorVersion.$minorVersion.$patchVersion\\x64\\Release"
+            }
+        }
+    }
+}
