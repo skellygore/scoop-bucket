@@ -1,0 +1,14 @@
+{
+    "version": "0.3",
+    "description": "Convert SPC files to IT (Impulse Tracker) files.",
+    "homepage": "https://github.com/uyjulian/spc2it",
+    "license": "Unknown",
+    "url": "https://github.com/uyjulian/spc2it/releases/download/v0.3/spc2it.exe",
+    "hash": "ff371eeaedd32b8721f693ff4b2994ae22d8623c934a6932fcc6c23478c388aa",
+    "bin": "spc2it.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/uyjulian/spc2it/releases/download/v$version/spc2it.exe",
+        "hash": "$url.sha256"
+    }
+}
