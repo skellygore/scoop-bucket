@@ -1,0 +1,37 @@
+{
+    "version": "2021.02.24",
+    "description": "A command-line program to download videos from youtube.com and many other video platforms.",
+    "homepage": "https://github.com/yt-dlp/yt-dlp",
+    "license": "Unlicense",
+    "suggest": {
+        "FFmpeg": [
+            "ffmpeg",
+            "ffmpeg-nightly"
+        ],
+        "vcredist": "extras/vcredist2010"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pukkandan/yt-dlp/releases/download/2021.02.24/yt-dlp.exe",
+            "hash": "e94e3a4c24c7472d5cdbd50128ace089a2478f642b71de26a8ee316e89dc609a"
+        },
+        "32bit": {
+            "url": "https://github.com/pukkandan/yt-dlp/releases/download/2021.02.24/yt-dlp_x86.exe",
+            "hash": "de2e433687ae85a06dd93d49e1d10efedf6a85217fed14a078331fc2897d2878"
+        }
+    },
+    "bin": "yt-dlp.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pukkandan/yt-dlp/releases/download/$version/yt-dlp.exe",
+                "hash": "$url.sha256"
+            },
+            "32bit": {
+                "url": "https://github.com/pukkandan/yt-dlp/releases/download/$version/yt-dlp_x86.exe",
+                "hash": "$url.sha256"
+            }
+        }
+    }
+}
