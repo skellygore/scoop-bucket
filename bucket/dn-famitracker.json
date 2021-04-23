@@ -1,16 +1,17 @@
 {
-    "version": "0.2.1.0",
+    "version": "0.3.0.0",
     "description": "Dn-Famitracker is a fork of 0CC-FamiTracker that incorporates numerous fixes and features.",
     "homepage": "https://github.com/Gumball2415/Dn-FamiTracker",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn0.2.1.0/Dn-FamiTracker_v021.7z",
-    "hash": "eb1cbf5639856fd11362c260edb608146dc52a428db6d6a2997bb555a4073adf",
+    "extract_dir": "Release",
     "architecture": {
         "32bit": {
-            "extract_dir": "Dn-FamiTracker v0.2.1\\x86\\Release"
+            "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn0.3.0.0/Dn-FamiTracker_v0300_x86.7z",
+            "hash": "c372aa165123656bfe3d618c86ff98e59fc353d0c150ce68090f40f66baead12"
         },
         "64bit": {
-            "extract_dir": "Dn-FamiTracker v0.2.1\\x64\\Release"
+            "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn0.3.0.0/Dn-FamiTracker_v0300_x64.7z",
+            "hash": "b47f1f787930b13a0eb012fe1124f13123968958088faa8a0b5fb21760eae0f4"
         }
     },
     "bin": "Dn_FamiTracker.exe",
@@ -25,13 +26,15 @@
         "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">Dn(.+?)</span>"
     },
     "autoupdate": {
-        "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn$version/Dn-FamiTracker_v$majorVersion$minorVersion$patchVersion.7z",
+        "extract_dir": "Release",
         "architecture": {
             "32bit": {
-                "extract_dir": "Dn-FamiTracker v$majorVersion.$minorVersion.$patchVersion\\x86\\Release"
+                "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn$version/Dn-FamiTracker_v$majorVersion$minorVersion$patchVersion$buildVersion_x86.7z",
+                "hash": "$url.sha256"
             },
             "64bit": {
-                "extract_dir": "Dn-FamiTracker v$majorVersion.$minorVersion.$patchVersion\\x64\\Release"
+                "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn$version/Dn-FamiTracker_v$majorVersion$minorVersion$patchVersion$buildVersion_x64.7z",
+                "hash": "$url.sha256"
             }
         }
     }
