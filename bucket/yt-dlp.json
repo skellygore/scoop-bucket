@@ -1,5 +1,5 @@
 {
-    "version": "2021.04.11",
+    "version": "2021.04.22",
     "description": "A command-line program to download videos from youtube.com and many other video platforms.",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "license": "Unlicense",
@@ -12,12 +12,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2021.04.11/yt-dlp.exe",
-            "hash": "56e7b57a46d504aa3379f882df92c57ed1658f1364a4e01060e26ab4ddd53c42"
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2021.04.22/yt-dlp.exe",
+            "hash": "ff58b664be2628633a49ebc772e37bd380ddcc7b1f50c90f6967e6da84e3d939"
         },
         "32bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2021.04.11/yt-dlp_x86.exe#/yt-dlp.exe",
-            "hash": "9396b20190f099193a68196e054130a3580f91e8ff865f187a3061f8cccf5340"
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2021.04.22/yt-dlp_x86.exe#/yt-dlp.exe",
+            "hash": "8710c85116d4a897308c5bbe5a3624e3388c3d37b364272ed181f4474fc0f170"
         }
     },
     "bin": "yt-dlp.exe",
