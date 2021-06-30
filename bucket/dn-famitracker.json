@@ -1,17 +1,17 @@
 {
-    "version": "0.3.0.0",
+    "version": "0.3.1.0",
     "description": "Dn-Famitracker is a fork of 0CC-FamiTracker that incorporates numerous fixes and features.",
     "homepage": "https://github.com/Gumball2415/Dn-FamiTracker",
     "license": "GPL-2.0-only",
     "extract_dir": "Release",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn0.3.0.0/Dn-FamiTracker_v0300_x86.7z",
-            "hash": "c372aa165123656bfe3d618c86ff98e59fc353d0c150ce68090f40f66baead12"
+            "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn0.3.1.0/Dn-FamiTracker_v0310_x86.7z",
+            "hash": "4edad700f1ce4dd9fc3ac961c6fed194f875b12a8cb47796279f84bd3810dee7"
         },
         "64bit": {
-            "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn0.3.0.0/Dn-FamiTracker_v0300_x64.7z",
-            "hash": "b47f1f787930b13a0eb012fe1124f13123968958088faa8a0b5fb21760eae0f4"
+            "url": "https://github.com/Gumball2415/Dn-FamiTracker/releases/download/Dn0.3.1.0/Dn-FamiTracker_v0310_x64.7z",
+            "hash": "090e4ff7c66f16e7bb9957cabf4447b5c19093142f23495628736dbef0b3d2c4"
         }
     },
     "bin": "Dn_FamiTracker.exe",
