@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url": "https://github.com/dgrfactory/spcplay/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">(.+?)</span>"
+        "regex": "\/releases\/tag\/(.+?)\""
     },
     "autoupdate": {
         "url": "https://github.com/dgrfactory/spcplay/releases/download/$version/spcplay-$version.zip",

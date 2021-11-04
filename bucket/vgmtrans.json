@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://github.com/vgmtrans/vgmtrans/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">(.+?)</span>"
+        "regex": "\/releases\/tag\/(.+?)\""
     },
     "autoupdate": {
         "url": "https://github.com/vgmtrans/vgmtrans/releases/download/$version/vgmtrans-$version.7z",

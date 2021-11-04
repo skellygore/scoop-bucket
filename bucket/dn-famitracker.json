@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases",
-        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">Dn(.+?)</span>"
+        "regex": "\/releases\/tag\/Dn(.+?)\""
     },
     "autoupdate": {
         "extract_dir": "Release",
