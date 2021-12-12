@@ -1,11 +1,11 @@
 {
-    "version": "264f2cdce880668e78737ca4055ccd60c56aa707",
+    "version": "cd342df8db438ac3c327985df590e01b9fdee79d",
     "description": "Nintendo 64 midi and soundbank extractor.",
     "homepage": "https://github.com/jombo23/N64-Tools",
     "license": "Unlicense",
-    "url": "https://github.com/jombo23/N64-Tools/archive/264f2cdce880668e78737ca4055ccd60c56aa707.zip",
-    "hash": "d0cf1ca808c34d438d1615819cc074b7c11909e5fa37bfa532158cac392834e7",
-    "extract_dir": "N64-Tools-264f2cdce880668e78737ca4055ccd60c56aa707\\N64 Soundbank Tool\\Release",
+    "url": "https://github.com/jombo23/N64-Tools/archive/cd342df8db438ac3c327985df590e01b9fdee79d.zip",
+    "hash": "d10cb166770be8e165a9b8b195951b9ad9b80b677c88597aa077c621bb714b70",
+    "extract_dir": "N64-Tools-cd342df8db438ac3c327985df590e01b9fdee79d\\N64 Soundbank Tool\\Release",
     "bin": "N64SoundbankTool.exe",
     "shortcuts": [
         [
