@@ -1,10 +1,10 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "BMX2WAV converts BMS files to WAV or ogg files.",
     "homepage": "http://childs.squares.net/program/bmx2wav/",
     "license": "Unknown",
-    "url": "http://childs.squares.net/program/bmx2wav/archives/bmx2wav-2.0.0.zip",
-    "hash": "7c68590db655f287bff1a021c320900bc49ce97dfb94bbfcde1a6baf4cd63bec",
+    "url": "http://childs.squares.net/program/bmx2wav/archives/bmx2wav-2.1.0.zip",
+    "hash": "7781e641a62408053570643629f4671d09bbeae617cc4e24bf31436928a6989e",
     "extract_dir": "bmx2wav",
     "bin": [
         "bmx2wav.exe",
