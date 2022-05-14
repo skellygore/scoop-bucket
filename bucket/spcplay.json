@@ -1,10 +1,10 @@
 {
-    "version": "2.19.3.7696",
+    "version": "2.19.3.7707",
     "description": "Player that can play SNES SPC700 sound files.",
     "homepage": "https://github.com/dgrfactory/spcplay",
     "license": "Unknown",
-    "url": "https://github.com/dgrfactory/spcplay/releases/download/2.19.3.7696/spcplay-2.19.3.7696.zip",
-    "hash": "1ef1cee377a289e8d0dd7cd1687c0b5b4ee6276c8580e0d8a759ad25813a90d0",
+    "url": "https://github.com/dgrfactory/spcplay/releases/download/2.19.3.7707/spcplay-2.19.3.7707.zip",
+    "hash": "6f40ddd2f22e1267ad190e7307e971a5dc36b463ee21d57c1c79f22c4d9e8b1f",
     "bin": [
         "spcplay.exe",
         "spccmd.exe"
