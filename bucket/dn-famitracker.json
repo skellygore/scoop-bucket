@@ -1,17 +1,16 @@
 {
-    "version": "0.4.0.1",
+    "version": "0.5.0.0",
     "description": "Dn-Famitracker is a fork of 0CC-FamiTracker that incorporates numerous fixes and features.",
     "homepage": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker",
     "license": "GPL-2.0-only",
-    "extract_dir": "Release",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases/download/Dn0.4.0.1/Dn-FamiTracker_v0401_x86.7z",
-            "hash": "69086876b56e261ed10326f6133c7ae7643d2b8e64a4d0aa180c3baf2652e0d3"
+            "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases/download/Dn0.5.0.0/Dn-FamiTracker_v0500_x86_Release.7z",
+            "hash": "8818ea5f290cb75b8e3e00e67ff2d6b0adc4ec007a80aee4328838415afa5753"
         },
         "64bit": {
-            "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases/download/Dn0.4.0.1/Dn-FamiTracker_v0401_x64.7z",
-            "hash": "8573d18fc29be1959bc4e69f4ee1b2c5b3bb099799638a177be3714e178001c2"
+            "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases/download/Dn0.5.0.0/Dn-FamiTracker_v0500_x64_Release.7z",
+            "hash": "f4af4ef952abedd8239be04f6f5db23fbcc0811025c7b360be3c95f57789c504"
         }
     },
     "bin": "Dn-FamiTracker.exe",
@@ -23,17 +22,16 @@
     ],
     "checkver": {
         "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases",
-        "regex": "\/releases\/tag\/Dn(.+?)\""
+        "regex": "/releases/tag/Dn(.+?)\""
     },
     "autoupdate": {
-        "extract_dir": "Release",
         "architecture": {
             "32bit": {
-                "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases/download/Dn$version/Dn-FamiTracker_v$majorVersion$minorVersion$patchVersion$buildVersion_x86.7z",
+                "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases/download/Dn$version/Dn-FamiTracker_v$majorVersion$minorVersion$patchVersion$buildVersion_x86_Release.7z",
                 "hash": "$url.sha256"
             },
             "64bit": {
-                "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases/download/Dn$version/Dn-FamiTracker_v$majorVersion$minorVersion$patchVersion$buildVersion_x64.7z",
+                "url": "https://github.com/Dn-Programming-Core-Management/Dn-FamiTracker/releases/download/Dn$version/Dn-FamiTracker_v$majorVersion$minorVersion$patchVersion$buildVersion_x64_Release.7z",
                 "hash": "$url.sha256"
             }
         }
